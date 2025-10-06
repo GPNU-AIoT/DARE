@@ -38,14 +38,9 @@ DARE (Debate-based Adversarial Reasoning Engine) orchestrates three role-special
 - **Config-centric design:** A single configuration file exposes debate depth, failure thresholds, and filesystem paths.
 
 ## Architecture
-```
-+-----------------+      +----------------------+      +------------------+
-| Liberal Analyst | ---> | Judge-Moderator Loop | <--- | Conservative Critic |
-+-----------------+      +----------------------+      +------------------+
-         ^                         |                          ^
-         |                         v                          |
-         +----------- Gemini API & debate history ------------+
-```
+<p align="center">
+  <img src="Fig/arch.png" alt="DARE debate architecture overview" width="720">
+</p>
 
 - `VideoProcessor` uploads the video, seeds the debate, and synthesizes the final verdict.
 - `processing_worker` coordinates multithreaded execution and result persistence.
@@ -132,6 +127,7 @@ If this framework supports your research, please cite:
 ```
 ## License
 Distributed under the [MIT License](LICENSE).
+
 
 
 
