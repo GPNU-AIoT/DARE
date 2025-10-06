@@ -1,0 +1,22 @@
+{
+  "samplenew3_00000116": {
+    "processed": true,
+    "timestamp": "2025-08-07T16:24:31.925233",
+    "processor": "Processor-2"
+  },
+  "samplenew3_00000005": {
+    "processed": true,
+    "timestamp": "2025-08-07T16:24:41.416962",
+    "processor": "Processor-4"
+  },
+  "samplenew3_00000004": {
+    "processed": true,
+    "timestamp": "2025-08-07T16:24:45.484454",
+    "processor": "Processor-1"
+  },
+  "samplenew3_00000008": {
+    "processed": true,
+    "timestamp": "2025-08-07T16:33:46.537771",
+    "processor": "Processor-1"
+  }
+}
