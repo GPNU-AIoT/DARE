@@ -1,7 +1,8 @@
-﻿<p align="center">
+<p align="center">
   <img src="https://img.shields.io/badge/DARE%20Framework-Gemini-blueviolet?style=for-the-badge&logo=google" alt="DARE">
   <img src="https://img.shields.io/badge/Task-Multimodal%20Emotion%20Recognition-ff3366?style=for-the-badge&logo=google-analytics" alt="Task">
   <img src="https://img.shields.io/badge/Status-Research%20Prototype-orange?style=for-the-badge&logo=fluentd" alt="Status">
+  <a href="https://doi.org/10.1145/3746270.3760223"><img src="https://img.shields.io/badge/Paper-ACM%20MRAC%2025-0069d9?style=for-the-badge&logo=read-the-docs" alt="Paper DOI"></a>
 </p>
 
 <div align="center">
@@ -115,16 +116,23 @@ samplenew3_00000005,"Subject describes a tense encounter."
 - **Rate limits:** Distribute tasks across multiple keys or throttle runs if the API starts returning quota errors.
 
 ## Citation
-If this framework supports your research, please cite the accompanying paper:
+If this framework supports your research, please cite:
 
 ```bibtex
-@article{dare2025,
-  title  = {DARE to Disagree: A Multi-Agent Adversarial Debate Framework for Open-Vocabulary Multimodal Emotion Recognition},
-  author = {Provide authors here},
-  journal = {Proceedings of ...},
-  year   = {2025}
+@inproceedings{huang2025dare,
+  author    = {Yuesheng Huang and Meiqi Feng and Zhenming He and Yueyuan Peng and Jiawen Li},
+  title     = {DARE to Disagree: A Multi-Agent Adversarial Debate Framework for Open-Vocabulary Multimodal Emotion Recognition},
+  booktitle = {Proceedings of the 3rd International Workshop on Multimodal and Responsible Affective Computing (MRAC '25)},
+  year      = {2025},
+  address   = {Dublin, Ireland},
+  publisher = {ACM},
+  pages     = {1--10},
+  doi       = {10.1145/3746270.3760223}
 }
 ```
-
 ## License
-Specify your license of choice (e.g., MIT, Apache-2.0). Update this section once the license decision is finalized.
+Distributed under the [MIT License](LICENSE).
+
+
+
+
